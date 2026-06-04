@@ -11,3 +11,9 @@ También utilizamos un batidor (detector de frecuencia) para identificar con may
 
 29/04/2026:
 En la clase de hoy estuvimos evaluando el modelo físico de la antena Moxon y terminamos de definir que este será el diseño definitivo para nuestro prototipo final. Aunque la antena Yagi ofrecía una ganancia teórica un poco mayor en las simulaciones, elegimos la Moxon porque es más compacta y resistente, lo que va a facilitar muchísimo su montaje sobre el soporte motorizado y el mástil giratorio sin sobrecargarlo.Además, dejamos calculadas las medidas preliminares para la estructura sintonizada en la banda de 2 metros ($145\text{ MHz}$). El próximo paso antes de armar los elementos definitivos de aluminio o alambre será validar completamente estos valores utilizando el NanoVNA.
+
+20/04/2026:
+Dividimos las tareas de la antena, nosotros hicimos un grupo para resolver el movimiento de los rotores que van a mover la antena, estos reciben los comandos de G-predict y se mueven segun esas instrucciones para orientar la antena. Primero tuvimos que hacer el circuito para hacer funcionar ambos motores paso a paso con sus respectivos drivers (pololus) , ademas tuvimos que abrir y resoldarle los pines a uno de los motores.
+
+27/04/2026
+Seguimos trabjando con los rotores, estuvimos trabjando en la comunicación de los motores para recibir las intrucciones y moverse correctamente. 
